@@ -26,7 +26,7 @@ document.getElementById('upload-input').addEventListener('change', function(even
 
     const imageURL = URL.createObjectURL(file);
 
-    fetch('/predict-image/', {
+    fetch('http://51.250.51.104:8000/predict-image/', {
         method: 'POST',
         headers: {
         'X-CSRFToken': csrftoken
