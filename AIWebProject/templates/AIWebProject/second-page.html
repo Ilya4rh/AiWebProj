@@ -45,5 +45,8 @@
 <!--      </section>-->
     </main>
     <script src="{% static 'AIWebProject/js/secnd-page.script.js' %}"></script>
+    <script>
+      document.cookie = "csrftoken={{ csrf_token }}";
+    </script>
   </body>
 </html>

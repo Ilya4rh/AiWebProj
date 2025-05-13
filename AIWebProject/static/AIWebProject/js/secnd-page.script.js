@@ -34,6 +34,7 @@ document.getElementById('upload-input').addEventListener('change', function(even
         'X-CSRFToken': csrftoken
         },
         body: formData,
+        credentials: 'include'
     })
     .then(response => response.json())
     .then(data => {

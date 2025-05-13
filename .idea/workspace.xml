@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22efb4ee-79b7-47f3-a251-d7cf342e5296" name="Changes" comment="Фикс фронта 2" />
+    <list default="true" id="22efb4ee-79b7-47f3-a251-d7cf342e5296" name="Changes" comment="Фикс" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747159739257</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Фикс">
+      <option name="closed" value="true" />
+      <created>1747163340205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747163340205</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +178,7 @@
     <MESSAGE value="Добавил хост" />
     <MESSAGE value="Фикс фронта" />
     <MESSAGE value="Фикс фронта 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фикс фронта 2" />
+    <MESSAGE value="Фикс" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фикс" />
   </component>
 </project>
