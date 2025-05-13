@@ -1,18 +1,3 @@
-function getCookie(name) {
-    let cookieValue = null;
-    if (document.cookie && document.cookie !== '') {
-        for (let cookie of document.cookie.split(';')) {
-            cookie = cookie.trim();
-            if (cookie.startsWith(name + '=')) {
-                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-                break;
-            }
-        }
-    }
-    return cookieValue;
-}
-const csrftoken = getCookie('csrftoken');
-
 document.getElementById('upload-input').addEventListener('change', function(event) {
     const file = event.target.files[0];
     if (!file) return;
@@ -25,6 +10,23 @@ document.getElementById('upload-input').addEventListener('change', function(even
     formData.append('image', file); // 'image' — имя поля, как в Django view
 
     const imageURL = URL.createObjectURL(file);
+
+    // Получаем CSRF токен из куки
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+    const csrftoken = getCookie('csrftoken');
 
     fetch('http://51.250.51.104:8000/predict-image/', {
         method: 'POST',
