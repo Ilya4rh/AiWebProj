@@ -4,7 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22efb4ee-79b7-47f3-a251-d7cf342e5296" name="Changes" comment="Start 3" />
+    <list default="true" id="22efb4ee-79b7-47f3-a251-d7cf342e5296" name="Changes" comment="Start 3">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AIWebProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/ml_models/food_classifier_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/ml_models/ml_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/static/AIWebProject/css/main-page.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/static/AIWebProject/css/second.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/static/AIWebProject/images/line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/static/AIWebProject/images/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/static/AIWebProject/js/main-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/static/AIWebProject/js/secnd-page.script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/templates/AIWebProject/main-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/templates/AIWebProject/second-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWebProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/accelerate-config.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/accelerate-estimate-memory.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/accelerate-launch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/accelerate-merge-weights.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/accelerate.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.nu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate_this.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/django-admin.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/f2py.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/huggingface-cli.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/import_pb_to_tensorboard.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/isympy.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/markdown-it.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/markdown_py.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/normalizer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/numpy-config.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip3.11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pydoc.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pygmentize.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/saved_model_cli.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/sqlformat.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/tensorboard.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/tf_upgrade_v2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/tflite_convert.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/toco.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/torchfrtrace.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/torchrun.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/tqdm.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/transformers-cli.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel-3.11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/man/man1/isympy.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +97,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ilya4rh"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5b872ff9-7669-4565-8849-471f5bc2c62d" />
+        <option name="url" value="https://github.com/Ilya4rh/AiWebProj.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2wrxrnLqOZJxh0PYVTnybP5pdXX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,6 +124,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Programs Python/AIWebProject",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   },

@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'AIWebProject/css/second.style.css' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Upload foto</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="left-setion">
+        <div class="upload-container">
+          <label for="upload-input" class="upload-label">
+            <div class="upload-icon"></div>
+            <span>загрузить</span>
+          </label>
+          <input type="file" id="upload-input" class="upload-input" accept="image/*">
+        </div>
+      </section>
+<!--      <section class="right-setion">-->
+<!--        <div class="filter-card">-->
+<!--&lt;!&ndash;          Для сторонней, расскомментировать и удалить div ниже&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="foto-container">&ndash;&gt;-->
+<!--          <div>-->
+<!--            <img id="preview-image" src="#" alt="Загруженное изображение" style="display: none; margin-bottom: 10px;">-->
+<!--          </div>-->
+<!--&lt;!&ndash;            Для сторонней, расскомментировать и удалить div ниже&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="info-container">&ndash;&gt;-->
+<!--          <div class="info-container2">-->
+<!--            <h3 class="info-container-title"></h3>-->
+<!--&lt;!&ndash;            Для сторонней, просто расскомментировать&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="kkl-container">360kkl</div>&ndash;&gt;-->
+<!--          </div>-->
+<!--&lt;!&ndash;          <div class="ai-answer-container">&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash; Выгрузка ответа нейронки &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            Ответ нейронной сети.Ответ нейронной сети. Какой-то Ответ нейронной сети.Ответ нейронной сети&ndash;&gt;-->
+<!--&lt;!&ndash;          </div>&ndash;&gt;-->
+<!--      </section>-->
+    </main>
+    <script src="{% static 'AIWebProject/js/secnd-page.script.js' %}"></script>
+  </body>
+</html>
